@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("Inter-VariableFont_opsz,wght.ttf");
+}
+
+nav{
+  margin: 0;
+  background-color: #FFFFFF;
+  height: 1,024px;
+  width: 52px;
+
+    #youcode-logo{
+      color: #0A1222;
+      text-decoration: none;
+      width: 120px;
+      height: 25px;
+      margin: 11px 0 0 52px;
+      font-family: "Inter"
+    }
+}

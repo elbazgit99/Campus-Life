@@ -11,9 +11,10 @@
 <body>
   <!-- 01 · Navigation -->
   <header>
+
     <nav>
       <ul>
-        <a href="">[YouCode]</a>
+        <a id="youcode-logo" href="">[YouCode]</a>
         <a href="">Accueil</a>
         <a href="">Campus</a>
         <a href="">Clubs & Activities</a>
@@ -22,9 +23,13 @@
         <a href="">Contact</a>
       </ul>
 
-      <i class="fas fa-search"><input type="search"></i>
+      <span id="search-wrap">
+        <input id="search-input" type="text">
+        <img src="../assets/nav/image.png" alt="">
+      </span>
       <button>Rejoindre l’aventure</button>
     </nav>
+
   </header>
   <!-- END -->
 
@@ -59,9 +64,11 @@
         <small>Y</small>
         <small>M</small>
         <div id="small-txt">
-          <small>Une communautéde +1000 apprenants</small>
+          <small>Une communautéde <br>
+            +1000 apprenants</small>
         </div>
       </div>
+
     </section>
     <!-- END -->
 
@@ -233,7 +240,60 @@
     </section>
     <!-- END -->
   </main>
+  <!-- END Main -->
 
-  <footer></footer>
+  <footer>
+    <div id="footer-Layout">
+
+      <div id="footer-top">
+
+      <div id="brand">
+        <small>[YouCode]</small>
+        <p>Une communauté d'apprenants, de <br>
+        projets et d'événements pour te faire <br>
+        grandir.</p>
+      </div>
+
+      <div id="links">
+
+        <span id="campus-liks">
+          <small>CAMPUS</small>
+          <a href="">Explorer le campus</a>
+          <a href="">Clubs & activités</a>
+          <a href="">Événements</a>
+        </span>
+      
+
+        <span id="RÉSEAUX">
+          <small>RÉSEAUX</small>
+          <a href="">Instagram</a>
+          <a href="">LinkedIn</a>
+          <a href="">Discord</a>
+        </span>
+
+        <span id="CTA">
+          <small>REJOINDRE L'AVENURE</small>
+          <button>
+            <a href="">Explorer le campus ↗</a>
+          </button>
+        </span>
+
+      </div>
+      <!-- END footer-top -->
+
+       <!-- buttom -->
+      <div id="footer-buttom">
+        <p>&copy; 2024 YouCode Campus Life. Tous droits réservés.</p>
+      </div>
+
+      <div>
+        <a href="">Mentions légales</a>
+        <a href="">Politique de confidentialité</a>
+      </div>
+      
+    </div>
+    <!-- END Layout -->
+  </footer>
+
 </body>
 </html>
