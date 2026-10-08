@@ -1,24 +1,145 @@
-*{
-  box-sizing: border-box;
-}
-
 @font-face {
   font-family: Inter;
-  src: url("Inter-VariableFont_opsz,wght.ttf");
+  src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+*{
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
 }
 
-nav{
+a{
+  text-decoration: none;
+}
+section{
   margin: 0;
+}
+
+
+nav{
   background-color: #FFFFFF;
-  height: 1,024px;
-  width: 52px;
+  margin: 0;
+  display: flex;
+  align-items: center;
 
     #youcode-logo{
       color: #0A1222;
-      text-decoration: none;
-      width: 120px;
-      height: 25px;
-      margin: 11px 0 0 52px;
-      font-family: "Inter"
+      margin-left:5%;
+      font-weight:bolder;
+      font-size:xx-large;    
+      flex-grow: 1; 
     }
+    #nav-links{
+      font-size:smaller;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      color: #0A1222;
+      flex-grow: 2;
+
+      a{
+          margin: 0 1%;
+      }
+      a:hover{
+        border-bottom: solid #034BFF;
+        color: #034BFF;
+      } 
+    }
+
+    #nav-btns{
+      flex-grow: 1;
+      margin-right: 2%;
+
+      #search-btn{
+        margin-right: 10%;
+        padding-top: 0;
+        color: #0A1222;
+        background: none;
+        border: none;
+        font-size: 6vh;
+        font-weight: bolder;
+        
+      }
+      #Rejoindre-btn{
+        background: #034BFF;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: small;
+        border-radius: 5px ;
+        border: #034BFF;
+        padding: 2% 20%;
+      }
+    }
+}
+
+/* hero-capus-life */
+#hero-campus-life{
+  margin: 0;
+  padding: 0;
+  background: #08111D;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+
+  #hero-campus-div{
+    flex-direction: column;
+    padding-left: 5%;
+  }
+  #life{
+    color: #034BFF;
+    font-size: 100px;
+  }
+  #hero-div-img{
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+  }
+  #hero-img{
+    width: 75%;
+
+  }
+  #decouvrir-le-campus{
+    background-color: #034BFF;
+    border:solid #034BFF;
+    border-radius: 5px;
+  }
+  #Voir-les-événements{
+    border:solid #8EABFF;
+    border-radius: 5px;
+    background: none;
+    color: #FFFFFF;
+  }
+  #smalls > div{
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  #hero-btns{
+    flex-direction: row;
+  }
+  #A{
+    background-color: #B8C9CF;
+    color: #0000;
+  }
+  #S{
+    background-color: #D7C3B6;
+    color: #0000;
+
+  }
+  #Y{
+    background-color: #B8C9CF;
+    color: #0000;
+
+  }
+  #M{
+    background-color: #D7C3B6;
+    color: #0000;
+
+  }
 }
