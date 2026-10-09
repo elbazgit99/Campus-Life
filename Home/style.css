@@ -98,27 +98,23 @@ nav{
 
     #CLC{
       width: 50%;
-      #campus{
+      #campus,#life,#curv{
         display: inline-block;
-        color: #FFFFFF;
         font-size: 100px;
         font-weight:900;
         margin: 0;
       }
+      #camup{
+        color: #FFFFFF;
+      }
       #life{
-        display: inline-block;
         color: #034BFF;
-        font-size: 100px;
-        font-weight: 900;
-        margin: 0;
       }
       #curv{
-        display: inline-block;
-        font-size: 10vh;
-        font-weight: bolder;
         color: #C7F64A;
         margin-left: 10%;
       }
+
     }
     #hero-h2{
       margin: 0;
@@ -148,6 +144,10 @@ nav{
         height: 60px;
         width: 50%;
         margin-left: 10px;
+      }
+      #événements-btn,#decouvrir-btn:hover{
+        border: solid #FFFFFF;
+        
       }
     }
     #smalls{
@@ -282,3 +282,8 @@ nav{
     }
   }
 }
+
+
+/* p {
+  word-wrap: break-word;
+} */

@@ -42,3 +42,8 @@ npm run dev
 use  `display` keyword for applying flexbox
 
 
+::before: Creates a gradient overlay that fades in on hover
+::after: Generates a blurred glow around the button
+scale(0): Shrinks the icons when hovered upon
+scale(1): Scales up the title on hover to become visible
+li: Increases in width as the title appears
