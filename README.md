@@ -1,49 +1,25 @@
 
-# H1
-## H2
-### H3
-#### H4
-
-**Bold**:
-- Unordered list:
-
-    - **bold** - text
 
 
+#CAMPUS LIFE
+is the very first sprint to validate in youcude campus 2026
 
-<!-- solid line -->
---- 
-
-
-Campus-Life/
+Campus-Life/  
 ├── assets/
-├── Home/
-│     ├── index.html
-│     └── style.css
-├── Campus/
-│     ├── index.html
-│     └── style.css
-├── log-in/
-│     ├── index.html
-│     └── style.css
-└── 
+│     ├──03 · Chiffres clés  
+│     ├──campus
+│     ├──Événements
+│     ├──Hero Campus Life
+│     └──Témoignage
+├── Home/  
+│     ├── index.html  
+│     └── style.css  
+├── Campus/  
+│     ├── index.html  
+│     └── style.css  
+├── Inscription/  
+│     ├── index.html  
+│     └── style.css  
+├──fonts/    
+└──README.md
 
-
-<!-- this for displaying any file syntax -->
-```env
-
-# comment in .env
-```
-```bash
-npm run dev
-```
-
-<!-- this `` for a bordered text -->
-use  `display` keyword for applying flexbox
-
-
-::before: Creates a gradient overlay that fades in on hover
-::after: Generates a blurred glow around the button
-scale(0): Shrinks the icons when hovered upon
-scale(1): Scales up the title on hover to become visible
-li: Increases in width as the title appears
